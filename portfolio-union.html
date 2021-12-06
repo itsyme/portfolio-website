@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale=1.0">
+        <title> David's Portfolio Website </title>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalise/7.0.0/normalise.min.css">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous">
+
+        <!-- Fonts -->
+        <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
+
+        <link rel="stylesheet"
+        href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <h3>David's Website</h3>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <!--
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    -->
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+            <section class="intro" id="home">
+                <h1 class="section__title section__title--intro">
+                    This is <strong>UNIon</strong>
+                </h1>
+                <p class="section__subtitle section__subtitle--intro">Contact Management</p>
+                <img src="img/union_logo.png" alt="modFriend logo" class="intro__img">
+            </section>
+        <div class="portfolio-item-individual__background">
+            <div class="portfolio-item-individual">
+                <p>UNIon is a contacts application made with Computing students in mind. This was a brown-field team project for a Software Engineering module. It was made using Java and JavaFx.</p>
+                <img class="portfolio-item-individual__screenshot" src="img/union_home.png" alt="">
+                <p>Our team edited the commands from the original applicaiton AddressBook3 to match Unix commands, which computing students use regularly.</p>
+                <p>We also added on folders to allow users to easily group contacts together.</p>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:davidleewei@u.nus.edu" class="footer__link">
+                davidleewei@u.nus.edu
+            </a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/itsyme">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/david-lee-4a147a1b1/">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+    </body>
+</html>
