@@ -499,6 +499,14 @@ header {
     opacity: 80%;
 }
 
+/* modFriend */
+
+/* UNIon */
+
+.portfolio-union__subtitle {
+    min-width: 30em;
+}
+
 /* Duke */
 .portfolio-duke__screenshot {
     height: 500px;
