@@ -504,10 +504,15 @@ header {
 /* UNIon */
 
 .portfolio-union__subtitle {
-    min-width: 30em;
+    width: calc(100% + 2.25em);
 }
 
 /* Duke */
+
+.portfolio-duke__subtitle {
+    width: calc(100% + 2.5em);
+}
+
 .portfolio-duke__screenshot {
     height: 500px;
     display: flex;
